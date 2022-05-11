@@ -12,7 +12,9 @@ import androidx.fragment.app.Fragment
 // メニューリスト
 private val MENU_DATA = mapOf(
     "ConstraintLayoutサンプル" to { Fragment01() },
-    "RecyclerViewサンプル" to { Fragment02() })
+    "RecyclerViewサンプル" to { Fragment02() },
+    Fragment03.title to { Fragment03() },
+    Fragment04.title to { Fragment04() })
 
 class MenuFragment : Fragment() {
     override fun onCreateView(
