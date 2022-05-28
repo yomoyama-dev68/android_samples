@@ -14,7 +14,10 @@ private val MENU_DATA = mapOf(
     "ConstraintLayoutサンプル" to { Fragment01() },
     "RecyclerViewサンプル" to { Fragment02() },
     Fragment03.title to { Fragment03() },
-    Fragment04.title to { Fragment04() })
+    Fragment04.title to { Fragment04() },
+    Fragment05.title to { Fragment05() },
+    Fragment06.title to { Fragment06() },
+    Fragment07.title to { Fragment07() },)
 
 class MenuFragment : Fragment() {
     override fun onCreateView(
