@@ -20,6 +20,20 @@ private val MENU_DATA = mapOf(
     Fragment07.title to { Fragment07() },
     Fragment08.title to { Fragment08() },)
 
+// TODO:
+// # UIサンプル
+// * リスト間ドラッグ＆ドロップ
+// * Dialog
+// * Drawerへの移行
+// # システムサンプル
+// * Intent
+// * Service
+//   * ファイルダウンロード
+//   * Music play
+// # その他
+// * CameraX
+
+
 class MenuFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
