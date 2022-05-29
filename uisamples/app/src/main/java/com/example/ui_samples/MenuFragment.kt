@@ -17,7 +17,8 @@ private val MENU_DATA = mapOf(
     Fragment04.title to { Fragment04() },
     Fragment05.title to { Fragment05() },
     Fragment06.title to { Fragment06() },
-    Fragment07.title to { Fragment07() },)
+    Fragment07.title to { Fragment07() },
+    Fragment08.title to { Fragment08() },)
 
 class MenuFragment : Fragment() {
     override fun onCreateView(
